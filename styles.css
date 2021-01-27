@@ -1,0 +1,11 @@
+body {
+    background: grey;
+}
+
+header{
+    background-image: url(/javaScriptLibrary/projects/staticLayout/assets/star-wars-backgrounds-25-stars.jpg);
+}
+
+#social_icon {
+    color: grey;
+}

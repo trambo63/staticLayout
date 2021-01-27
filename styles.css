@@ -1,11 +1,31 @@
-body {
-    background: grey;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
 
-header{
+/* Nav Bar area */
+
+.navbar {
     background-image: url(/javaScriptLibrary/projects/staticLayout/assets/star-wars-backgrounds-25-stars.jpg);
+    height: 12.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    position: sticky;
+    top: 0px;
+    z-index: 0;
 }
 
-#social_icon {
-    color: grey;
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 12.5em;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 25px;
 }
+

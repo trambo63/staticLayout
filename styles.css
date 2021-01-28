@@ -3,8 +3,13 @@
     margin: 0;
     padding: 0;
     font-family: 'PT Sans', sans-serif;
+    
 }
 
+body{
+    background-image: url(/javaScriptLibrary/projects/staticLayout/assets/page-background.jpg);
+    width: 100%;
+}
 /* Nav Bar area */
 
 .navbar {
@@ -16,7 +21,7 @@
     font-size: 1em;
     position: sticky;
     top: 0px;
-    z-index: 0;
+    z-index: 1;
 }
 
 .navbar__container {
@@ -24,6 +29,7 @@
     justify-content: space-between;
     height: 11.5em;
     z-index: 1;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
     padding: 21px 21px;
@@ -132,6 +138,7 @@
 }
 
 .navbar__menu .navbar__item {
+    background: rgb(0, 0, 0);
     padding: .9em 2em;    
     bottom: 0px;
     border-left: solid rgb(75, 75, 75);
@@ -141,6 +148,7 @@
 }
 
 .navbar__menu .navbar__itemRight{
+    background: rgb(0, 0, 0);
     padding: .9em 2em;    
     bottom: 0px;
     border-right: solid rgb(75, 75, 75);
@@ -155,6 +163,7 @@
 }
 
 #navbar__links {
+    background: rgb(0, 0, 0);
     text-decoration: none;
     color: grey;
     font-weight: bold;
@@ -166,5 +175,32 @@
 }
 
 /* Hero Section */
+
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main__heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+    border-top: solid rgb(75, 75, 75);
+    border-width: thin;
+    background-color: rgb(15, 15, 15);
+    height: 3em;
+}
+
+
+.main__slider .slide__first img {
+    width: 100%;
+}
+
+.main__slider .slide img {
+    width: 100%;
+}
 
 

@@ -23,7 +23,7 @@
                 <li><a href="#" target="_blank" id="social"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="#" target="_blank" id="social__border"><i class="fas fa-tv"></i></a></li>
             </ul>
-            <img src="assets/starWars.png" alt="image" class="main__logo">
+            <a href="#navBar"><img src="assets/starWars.png" alt="image" class="main__logo"></a>
             <div class="nav__right">
                 <form class="search__box">
                     <input type="text" class="input" placeholder="Search Star Wars">
@@ -63,10 +63,42 @@
 
     <!-- Hero Section -->
     <div class="main">
-        <div class="main__container">
-            <h4>STAR WARS STREAMING ANYTIME ON</h4>
-            <div class="main__content">
+        <div class="main__heading">
+            <h4>STAR WARS STREAMING ANYTIME ON DISNEY+</h4>
+        </div>
 
+        <div class="main__slider">
+            <div class="slides">
+                <input type="radio" class="main__btn" id="btn1">
+                <input type="radio" class="main__btn" id="btn2">
+                <input type="radio" class="main__btn" id="btn3">
+                <input type="radio" class="main__btn" id="btn4">
+            </div>
+            <div class="slide__first">
+                <img src="assets/star-wars-backgrounds-06.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/star-wars-backgrounds-12-1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/star-wars-backgrounds-18.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="assets/star-wars-backgrounds-32.jpg" alt="">
+            </div>
+
+            <div class="slide__auto">
+                <div class="auto__btn1"></div>
+                <div class="auto__btn2"></div>
+                <div class="auto__btn3"></div>
+                <div class="auto__btn4"></div>
+            </div>
+
+            <div class="slide__manual">
+                <label for="btn1" class="manual__btn"></label>
+                <label for="btn2" class="manual__btn"></label>
+                <label for="btn3" class="manual__btn"></label>
+                <label for="btn4" class="manual__btn"></label>
             </div>
         </div>
     </div>

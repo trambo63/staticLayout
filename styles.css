@@ -91,13 +91,14 @@
     align-items: center;
     justify-content: flex-end;
     padding-top: 8px;
+    text-decoration: none;
 }
 
 .navbar__menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 3.5em;
+    height: 3.4em;
     margin: auto;
     top: 9em;
     left: 0;
@@ -105,21 +106,31 @@
     right: 0;
     position: absolute;
     bottom: 0px;
-    background: black;
+    background: rgb(19, 19, 19);
     border-top: solid grey;
     border-width: thin;
 }
 
 .navbar__menu .navbar__item {
-    /* display: flex;
-    justify-content: space-between; */
-    /* align-items: center; */
-    padding: 1.1em 2em;    
+    padding: 1em 2em;    
     bottom: 0px;
-    border-top: solid grey;
     border-left: solid grey;
     border-right: solid grey;
     border-width: thin;
+    list-style: none;
 }
+
+.navbar .navbar__container .nav__right .register p {
+    color: grey;
+    padding: 0 0.7em;
+}
+
+#navbar__links {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+
 
 

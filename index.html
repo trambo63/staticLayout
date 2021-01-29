@@ -66,34 +66,62 @@
         <div class="main__heading">
             <h4>STAR WARS STREAMING ANYTIME ON DISNEY+</h4>
         </div>
-
-        <div class="slide__container">
-            <div class="slide">
-                <img src="assets/star-wars-backgrounds-06.jpg" alt="image" id="slide__img">
-                <div class="slide__text">TEXT GOES HERE</div>
+    </div>
+    <section class="carousel__wrapper">
+        <input type="radio" name="r" id="r1" checked>
+        <input type="radio" name="r" id="r2">
+        <input type="radio" name="r" id="r3">
+        <input type="radio" name="r" id="r4">
+        <div class="carousel middle">
+            <div class="slides s1" id="sld1"> 
+                <div class="slide__content-one" id="sld_content-one">
+                    <h1>TEXT TEXT TEXT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="img__slide" >
+                    <img src="assets/star-wars-backgrounds-12-1.jpg" alt="img">
+                </div>
             </div>
-            <div class="slide">
-                <img src="assets/star-wars-backgrounds-12-1.jpg" alt="image" id="slide__img">
-                <div class="slide__text">TEXT GOES HERE</div>
+            <div class="slides s2" id="sld2">
+                <div class="slide__content" id="sld_content-two">
+                    <h1>TEXT TEXT TEXT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="img__slide" >
+                    <img src="assets/star-wars-backgrounds-12-1.jpg" alt="img">
+                </div>
             </div>
-            <div class="slide">
-                <img src="assets/star-wars-backgrounds-18.jpg" alt="image" id="slide__img">
-                <div class="slide__text">TEXT GOES HERE</div>
+            <div class="slides s3">
+                <div class="slide__content" id="sld_content-three">
+                    <h1>TEXT TEXT TEXT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="img__slide" id="sld3">
+                    <img src="assets/star-wars-backgrounds-12-1.jpg" alt="img">
+                </div>
             </div>
-            <div class="slide">
-                <img src="assets/star-wars-backgrounds-32.jpg" alt="image" id="slide__img">
-                <div class="slide__text">TEXT GOES HERE</div>
+            <div class="slides s4">
+                <div class="slide__content" id="sld_content-four">
+                    <h1>TEXT TEXT TEXT</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+                <div class="img__slide" id="sld4">
+                    <img src="assets/star-wars-backgrounds-12-1.jpg" alt="img">
+                </div>
             </div>
-
-            <a  class="slide__prev" onclick="plusSlides(-1)"></a>
-            <a  class="slide__next" onclick="plusSlides(1)"></a>
+            
+            <div class="navigation">
+                <label for="r1" class="bar"></label>
+                <label for="r2" class="bar"></label>
+                <label for="r3" class="bar"></label>
+                <label for="r4" class="bar"></label>
+            </div>
         </div>
-
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-          </div>
+    </section>
+    <div class="main__static">
+        <div class="main__content">
+            <img src="assets/star-wars-backgrounds-18.jpg" alt="">
+        </div>
     </div>
 
 </body>

@@ -10,7 +10,7 @@ body{
     background-image: url(/javaScriptLibrary/projects/staticLayout/assets/page-background.jpg);
     width: 100%;
 }
-/* Nav Bar area */
+/* NavBar area */
 
 .navbar {
     background-image: url(/javaScriptLibrary/projects/staticLayout/assets/maxresdefault.jpg);
@@ -33,6 +33,7 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 21px 21px;
+    /* padding-bottom: 0; */
 }
 
 .social__icons {
@@ -105,6 +106,7 @@ body{
 }
 
 .search__btn {
+    font-size: 1.3em;
     background-color: grey;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -138,9 +140,10 @@ body{
 }
 
 .navbar__menu .navbar__item {
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
     padding: .9em 2em;    
     bottom: 0px;
+    /* border-top: solid rgb(75, 75, 75); */
     border-left: solid rgb(75, 75, 75);
     border-right: solid rgb(75, 75, 75);
     border-width: thin;
@@ -148,9 +151,10 @@ body{
 }
 
 .navbar__menu .navbar__itemRight{
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
     padding: .9em 2em;    
     bottom: 0px;
+    /* border-top: solid rgb(75, 75, 75); */
     border-right: solid rgb(75, 75, 75);
     border-width: thin;
     list-style: none;
@@ -180,6 +184,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .main__heading {
@@ -194,13 +199,32 @@ body{
     height: 3em;
 }
 
-
-.main__slider .slide__first img {
+#slide__img {
     width: 100%;
 }
 
-.main__slider .slide img {
+.slide__container {
     width: 100%;
+    position: relative;
+    margin: auto;
 }
 
+.slide {
+    display: none;
+}
+
+.slide__prev, .slide__next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
 

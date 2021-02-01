@@ -7,13 +7,13 @@
 }
 
 body{
-    background-image: url(/javaScriptLibrary/projects/staticLayout/assets/page-background.jpg);
+    background-image: url("assets/maxresdefault.jpg");
     width: 100%;
 }
 /* NavBar area */
 
 .navbar {
-    background-image: url(/javaScriptLibrary/projects/staticLayout/assets/maxresdefault.jpg);
+    background-image: url("assets/maxresdefault.jpg");
     height: 11.5em;
     display: flex;
     justify-content: center;

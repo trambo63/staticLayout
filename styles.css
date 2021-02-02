@@ -180,7 +180,7 @@ body{
     transition: all 0.7s ease-in-out;
 }
 
-/* Hero Section */
+/* Hero Area */
 
 .main {
     margin: 0;
@@ -447,7 +447,7 @@ ol, li {
     font-weight: bolder;
 }
 
-.main__content-overlay2 {
+.main__content-overlay {
     position: absolute;
     margin: auto;
     left: 0;
@@ -467,7 +467,7 @@ ol, li {
     width: 32em;
 }
 
-.main__content-overlay2 p {
+.main__content-overlay p {
     max-width: 700px;
     color: rgb(107, 107, 107);
 }
